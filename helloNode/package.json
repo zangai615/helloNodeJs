@@ -1,0 +1,24 @@
+/*  运行问题2：SyntaxError: Use of const in strict mode
+    将connect-mongo版本降低*/
+{
+  "name": "hellonode",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.8.1",
+    "cookie-parser": "~1.4.3",
+    "mongodb": "^1.4.19",
+    "connect-mongo": "0.8.2",
+    "express-session":"*",
+    "connect-flash":"*",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.9.0",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2",
+    "crypto":"*"
+  }
+}

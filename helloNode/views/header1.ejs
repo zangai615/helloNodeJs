@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title><%= title %> Hello Node</title>
+  </head>
+  <body>
+    <div>
+    <% if(!user){ %>
+        <a href="/reg">注册</a>
+        <a href="/login">登录</a>
+      <% }else{ %>
+      <a href="/exit">退出</a>
+      <% } %>
+    </div>
+
+

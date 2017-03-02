@@ -1,0 +1,16 @@
+<%include header.ejs%>
+<% if(user){%>
+  <form>
+    <input action="/post" method="post"/>
+    <button type="submit">·¢ÑÔ</button>
+  </form>
+  <% posts.forEach(function(post,index){%>
+    <li>
+      <p>
+        <%=post.post%>
+      </p>
+    </li>
+  <% })%>
+<%}%>
+</body>
+</html>
